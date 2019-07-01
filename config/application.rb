@@ -23,13 +23,14 @@ module RailsDemo
     config.load_defaults 5.2
 
       # Disable generation of helpers, javascripts, css, and view, helper, routing and controller specs
-  config.generators do |generate|
-    generate.helper false
-    generate.assets false
-    generate.view_specs false
-    generate.helper_specs false
-    generate.routing_specs false
-    generate.controller_specs false
-    generate.system_tests false
+    config.generators do |generate|
+      generate.helper false
+      generate.assets false
+      generate.view_specs false
+      generate.helper_specs false
+      generate.routing_specs false
+      generate.controller_specs false
+      generate.system_tests false
+    end
   end
 end

@@ -20,8 +20,12 @@ Given("I visit the {string} page") do |string|
   visit root_path
 end
 
-When("I click {string} link") do |string|
+When("I click on {string}") do |string|
   click_on string
+end
+
+When("I click on the {string} link") do |string|
+  first(:link, string).click
 end
 
 When("I fill in {string} with {string}") do |field, input|
@@ -34,10 +38,4 @@ end
 
 Then("I should be on {string} page") do |content|
   expect(page).to have_content content
-end
-
-When("I click {string} link") do |string|
-  within('td') do
-    click_on string
-  end
 end

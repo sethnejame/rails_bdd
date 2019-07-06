@@ -10,13 +10,13 @@ Feature: Edit articles
       | A breaking news item | Some really breaking action      |
       | Learn Rails 5        | Build awesome rails applications |
 
-  Scenario: Successfully edit an article
-    Then I should see "New Article"
-    When I click "Edit" link
-    When I fill in "Title" with "Learning Rails 5"
-    And I fill in "Content" with "Excited about learning a new framework"
-    And I click "Update Article" button
-    Then I should be on "Learning Rails 5" page
+  Scenario: View list of articles on the landing page
+    When I visit the site
+    When I click on the "Edit" link
+    When I fill in "Title" with "Test Edit"
+    And I fill in "Content" with "This is a test for the Edit Feature"
+    And I click on "Update Article"
+    Then I should be on "Test Edit" page
     And I should see "Article was successfully created."
-    And I should see "Learning Rails 5"
-    And I should see "Excited about learning a new framework"
+    And I should see "Test Edit"
+    And I should see "This is a test for the Edit Feature"

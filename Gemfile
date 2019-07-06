@@ -14,6 +14,7 @@ gem 'bootsnap', '>= 1.1.0', require: false
 
 group :development, :test do
   gem 'factory_bot_rails'
+  gem 'selenium-webdriver'
   gem 'pry-byebug'
   gem 'pry-rails'
   gem 'rspec-rails'

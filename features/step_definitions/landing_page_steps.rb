@@ -35,3 +35,9 @@ end
 Then("I should be on {string} page") do |content|
   expect(page).to have_content content
 end
+
+When("I click {string} link") do |string|
+  within('td') do
+    click_on string
+  end
+end

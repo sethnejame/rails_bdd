@@ -26,3 +26,7 @@ edit_articles.feature
 delete_article.feature
 5. Comment Articles - Readers can comment on articles
 comment_article.feature
+
+###Additional Resources
+Accidentally added a bad migration, used the following link to revert:
+https://gist.github.com/chand/3c646d7ef8f32599ea17ae37c6ebde86

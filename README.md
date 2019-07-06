@@ -1,24 +1,28 @@
-# README
+# Rails_BDD Demo
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+This Ruby on Rails "Article" application was modeled after a Craft Academy exercise aimed at focusing on Behavioral Driven Development (BDD). Additional features were added by following the Ruby on Rails "Getting Started" guide, found here: https://guides.rubyonrails.org/getting_started.html.
 
-Things you may want to cover:
 
-* Ruby version
+### Ruby version 2.6.3
+Update from CA's exercise version, 2.3.4
 
-* System dependencies
+### Usage
+The following app has been deployed to Heroku.  It can be visited by following the link below:
 
-* Configuration
+Awesome Articles!
+https://gorgeous-lassen-volcanic-60733.herokuapp.com/
 
-* Database creation
+### Testing
+Awesome Articles were tested using Cucumber/Capybara.  To access the tests, run 'bundle exec cucumber' from the command prompt 
+in the root folder, followed by the feature file you would like to test.  The test suite touts the following feature tests:
 
-* Database initialization
-
-* How to run the test suite
-
-* Services (job queues, cache servers, search engines, etc.)
-
-* Deployment instructions
-
-* ...
+1. List Articles - Displays all articles @ Index
+list_articles.feature
+2. Create Article - Creates new articles
+create_articles.feature
+3. Edit Article - Edits current articles
+edit_articles.feature
+4. Delete Article - Deletes any current article w/ a prompt
+delete_article.feature
+5. Comment Articles - Readers can comment on articles
+comment_article.feature

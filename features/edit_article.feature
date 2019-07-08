@@ -17,6 +17,5 @@ Feature: Edit articles
     And I fill in "Content" with "This is a test for the Edit Feature"
     And I click on "Update Article"
     Then I should be on "Test Edit" page
-    And I should see "Article was successfully created."
     And I should see "Test Edit"
     And I should see "This is a test for the Edit Feature"

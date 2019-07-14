@@ -2,6 +2,15 @@
 
 This Ruby on Rails "Article" application was modeled after a Craft Academy exercise aimed at focusing on Behavioral Driven Development (BDD). Additional features were added by following the Ruby on Rails "Getting Started" guide, found here: https://guides.rubyonrails.org/getting_started.html.
 
+### Update @ 07/12/2019 - Weekend Challenge for Week 5
+1. Read the Devise documentation: https://github.com/plataformatec/devise
+2. Add a login functionality to the AUT challenge
+3. Only allow logged in user to view articles
+    *Feature test
+    *Unit tests
+4. Make a WIP PR towards your development branch
+5. Submit PR before monday morning 
+
 
 ### Ruby version 2.6.3
 Update from CA's exercise version, 2.3.4

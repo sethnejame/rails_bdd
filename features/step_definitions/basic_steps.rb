@@ -1,23 +1,11 @@
-# List Article Feature Tests
-
 When("I visit the site") do
     visit root_path
   end
-  
-Then("I should see {string}") do |content|
-  expect(page).to have_content content
-end
 
 Given("the following articles exists") do |table|
   table.hashes.each do |article|
     Article.create!(article)
   end
-end
-
-# Create Article Feature Tests
-
-Given("I visit the {string} page") do |string|
-  visit root_path
 end
 
 When("I click on {string}") do |string|
@@ -34,14 +22,6 @@ end
 
 When("I click {string} button") do |button|
   click_on button
-end
-
-Then("I should be on {string} page") do |content|
-  expect(page).to have_content content
-end
-
-Then("I should not see {string}") do |content|
-  expect(page).not_to have_content content
 end
 
 Then("I accept the alert") do

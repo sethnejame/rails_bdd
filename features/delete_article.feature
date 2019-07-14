@@ -4,7 +4,7 @@ Feature: Delete Article
     I would like to be able to delete articles
 
   Background:
-    Given I visit the "landing" page
+    Given I visit the site
     Given the following articles exists
       | title                | content                          |
       | A breaking news item | Some really breaking action      |

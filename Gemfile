@@ -13,6 +13,7 @@ gem 'jbuilder', '~> 2.5'
 gem 'bootsnap', '>= 1.1.0', require: false
 gem 'webpacker', '~> 4.0.7'
 gem 'tailwindcss', '~> 1.0.0'
+gem 'devise', '~> 4.6', '>= 4.6.2'
 
 group :development, :test do
   gem 'factory_bot_rails'

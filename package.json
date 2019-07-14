@@ -3,6 +3,7 @@
   "private": true,
   "dependencies": {
     "@rails/webpacker": "^4.0.7",
+    "jquery-ujs": "^1.2.2",
     "tailwindcss": "~1.0.0"
   },
   "devDependencies": {

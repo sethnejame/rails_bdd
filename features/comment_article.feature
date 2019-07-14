@@ -4,7 +4,7 @@ Feature: Comment on articles
     I would like readers to be able to comment on articles
 
   Background:
-    Given I visit the "landing" page
+    Given I visit the site
     Given the following articles exists
       | title                | content                          |
       | A breaking news item | Some really breaking action      |

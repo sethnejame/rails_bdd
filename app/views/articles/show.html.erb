@@ -10,8 +10,9 @@
   <strong>Text:</strong>
   <%= @article.content %>
 </p>
-
-<h2>What do you think?</h2>
+<br>
+<br>
+<h2 style="font-weight: normal; font-family: 'Alfa Slab One', cursive;">What do you think?</h2>
 <% @article.comments.each do |comment| %>
   <p>
     <strong>Commenter:</strong>
